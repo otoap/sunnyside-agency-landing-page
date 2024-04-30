@@ -1,0 +1,221 @@
+*{
+    font-family: "Fraunces", serif;
+}
+
+header {
+    background-image: url("./images/mobile/image-header.jpg");
+    background-size: 100%;
+    padding: 32px 24px 482px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 0 24px;
+    left: 0;
+    top: 106px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid white;
+    position: absolute;
+    top: -23px;
+    right: 24px;
+  }
+
+.menu-dashes {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dash {
+    width: 24px;
+    height: 2px;
+    flex-grow: 0;
+    background-color: #fff;
+}
+
+nav {
+    width: 100%;
+    background-color: #fffcf8;
+    padding: 39px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+li button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -0.14px;
+    text-align: left;
+    color: #808397;
+    cursor: pointer;
+    font-family: "Barlow";
+  
+}
+
+.contact {
+    background-color: #fbd600;
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: -0.11px;
+    color: #24303e;
+    padding: 16px 31px;
+    border-radius: 28px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 6.25px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 144px;
+    left: 0;
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 294px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*top section*/
+
+.top-inside img{
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.23px;
+    text-align: center;
+    color: #24303e;
+}
+
+.top-section p{
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: -0.13px;
+    text-align: center;
+    color: #808397;
+    margin: 24px 0 32px;
+}
+
+.top-section button {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: #24303e;
+    border: none;
+    background-color: #fffcf8;
+    cursor: pointer;
+}
+
+.top-section button::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fad400;
+    transform: translateY(-10px);
+    z-index: -1;
+    border-radius: 28px;
+    opacity: 0.25;
+}
+
+.top-inside .redBtn::after {
+    background-color: #fe7766;
+}
+
+.top-inside div {
+    padding: 64px 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+    font-size: 0;
+}
+
+.egg {
+    order: -1;
+}
+
+.top-inside .cherry, .top-inside .mandarin {
+    padding: 0;
+    position: relative;
+}
+
+.top-inside .cherry-text-div, .top-inside .mandarin-text-div {
+    position: absolute;
+    bottom: 59px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #24554a;
+}
+
+.cherry-text-div p, .mandarin-text-div p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.69;
+    letter-spacing: -0.11px;
+    text-align: center;
+    color: #24554a;
+    padding: 27px 24px 0;
+    margin: 0;
+}
+
+
