@@ -2,6 +2,10 @@
     font-family: "Fraunces", serif;
 }
 
+body {
+    background-color: #fffcf8;
+}
+
 header {
     background-image: url("./images/mobile/image-header.jpg");
     background-size: 100%;
@@ -117,7 +121,7 @@ h1 {
 /*top section*/
 
 .top-inside img{
-    max-width: 100%;
+    width: 100%;
 }
 
 h2 {
@@ -180,8 +184,9 @@ h2 {
     flex-direction: column;
 }
 
-.picture {
+picture {
     font-size: 0;
+    width: 100%;
 }
 
 .egg {
@@ -198,6 +203,7 @@ h2 {
     bottom: 59px;
     padding: 0;
 }
+
 
 h3 {
     font-size: 28px;
@@ -216,6 +222,121 @@ h3 {
     color: #24554a;
     padding: 27px 24px 0;
     margin: 0;
+}
+
+/*bottom section*/
+h4 {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #a7aaad;
+    margin: 64px 0;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.people div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.people div img {
+    width: 72px;
+    border-radius: 50%;
+}
+
+.people div p {
+    margin: 32px 24px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.78;
+    letter-spacing: -0.13px;
+    text-align: center;
+    color: #5b636d;
+}
+
+.name {
+    font-family: "Fraunces", serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.13px;
+    text-align: center;
+    color: #24303e;
+  
+}
+
+.job {
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.79;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #a7aaad;
+    margin-top: 9px;
+  
+}
+
+.four-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 86px;
+}
+
+.four-pictures img {
+    width: 100%;
+}
+
+/*footer*/
+
+footer {
+    background-color: #90d4c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 39px 80px;
+}
+
+footer img {
+    filter: brightness(0) saturate(100%) invert(38%) sepia(33%) saturate(651%) hue-rotate(118deg) brightness(95%) contrast(92%);
+}
+
+footer nav {
+    background-color: #90d4c6;
+    padding: 39px 0 88px;
+}
+
+footer ul {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer li {
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.39;
+    letter-spacing: -0.13px;
+    color: #458d7e;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    gap: 28px;
+}
+
+.socials img {
+    cursor: pointer;
 }
 
 
