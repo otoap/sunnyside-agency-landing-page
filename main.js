@@ -20,11 +20,3 @@ menu.addEventListener("click", (event)=> {
         list.style.display = "none"
     }
 })
-
-// body.addEventListener("click", (event)=> {
-//     if(list.style.display == "block" && event.target.value != menu) {
-//         list.style.display = "none"
-//     }
-// })
-
-
